@@ -9,5 +9,16 @@ function submit1(event)
     localStorage.setItem('lastName',document.getElementById('lastName').value)
     console.log(localStorage.getItem('lastName'))
     
+
+
 }
+
+let a={
+    name:"Shiva",
+    age:25
+};
+let a1=JSON.stringify(a);
+localStorage.setItem("user",a1)
+
+console.log(localStorage.getItem('user'))
 
